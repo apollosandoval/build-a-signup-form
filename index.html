@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Build A Signup Form</title>
+  </head>
+  <body>
+    <h1>Sign Up Below To Be Part Of The Magic</h1>
+    <form target="_self">
+      <fieldset>
+        <legend>Registration</legend>
+        <input id="email" type="email" name="email" placeholder="someone@gmail.com">
+        <label for="email">Email</label><br>
+
+        <input id="psw" type="password" name="psw" placeholder="not 12345">
+        <label for="psw">Password</label><br>
+
+        <input id="username" type="text" name="username" placeholder="you can be anybody!">
+        <label for="username">Username</label><br><br>
+
+        <div>
+          <input type="radio" name="tier" value="enterprise">Enterprise
+          <input type="radio" name="tier" value="pro">Pro
+          <input type="radio" name="tier" value="free" checked>Free
+        </div>
+        <input id="rememberme" type="checkbox" name="rememberme">
+        <label for="rememberme">Remember Me?</label><br><br>
+        <input type="submit"><br>
+      </fieldset>
+    </form>
+  </body>
+</html>
